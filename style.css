@@ -1,0 +1,85 @@
+.flexcontainer {
+    display:flex;
+}
+.flexitem {
+    flex-grow: 1;
+    border: 3px solid;
+}
+.flexcontainer1 {
+    display:flex;
+    flex-direction: column;
+}
+.flexitem22 {
+    flex-shrink: 1;
+    border: 3px solid;
+}
+.flexcontainer2 {
+    display:flex;
+    flex-direction: column-reverse;
+}
+.flexitem111 {
+    flex-basis: 25%; /*percentage value*/
+}
+.flexitem222 {
+    flex-basis: 50px; /*absolute value*/
+}
+.flexitem333 {
+    flex-basis: 5px;
+}
+.flexcontainer3 {
+    display:flex;
+    flex-direction: row-reverse;
+}
+.flexitem1111 {
+    flex: 2 1 100px;
+}
+.flexitem2222 {
+    5 1 5%;
+}
+.flexitem3333 {
+    flex: 1 5 5%;
+}
+.flexcontainer4 {
+    display:flex;
+    justify-content: flex-end;
+}
+.flexcontainer5 {
+    display:flex;
+    justify-content: center;
+}
+.flexcontainer6 {
+    display:flex;
+    justify-content: space-between;
+}
+.flexcontainer7 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontainer8 {
+    display:flex;
+    flex-wrap: wrap;
+}
+.flexcontainer9 {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.flexcontainer10 {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: *;
+}
+.flexcontainer11 {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.flexcontainer12 {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.flexcontainer12 {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+
+

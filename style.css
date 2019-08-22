@@ -43,6 +43,12 @@
     display:flex;
     justify-content: flex-end;
 }
+.flexitem11111 {
+    flex-shrink: 1;
+}
+.flexitem11111:nth-child(1) {
+    flex-shrink: 1;
+}
 .flexcontainer5 {
     display:flex;
     justify-content: center;
